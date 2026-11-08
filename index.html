@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pionniers soviétiques ? — Histoire de la lemmatisation computationnelle du grec ancien</title>
+<meta name="description" content="Page de travail d'un projet d'histoire de la lemmatisation computationnelle du grec ancien : ce que les sources établissent sur les travaux soviétiques, et ce qui reste à vérifier.">
+<meta name="robots" content="noindex">
+<style>
+  :root { --ink:#1d1b18; --muted:#6b645a; --accent:#a3271f; --paper:#faf7f1; --rule:#e2dccf; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 1rem; margin-bottom: 2rem; }
+  .kicker { font: 600 .8rem/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-size: 2rem; line-height: 1.2; margin: .5rem 0 .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; border-bottom: 1px solid var(--rule); padding-bottom: .25rem; }
+  .lede { color: var(--muted); margin: 0; }
+  .notice { background:#fff; border-left: 4px solid var(--accent); padding: .75rem 1rem; margin: 1.5rem 0; }
+  ol.timeline { list-style: none; padding: 0; }
+  ol.timeline li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; padding: .6rem 0; border-bottom: 1px dotted var(--rule); }
+  ol.timeline .y { font: 700 1rem/1.6 system-ui, sans-serif; color: var(--accent); }
+  .src { font-size: .85rem; color: var(--muted); }
+  ul.todo li { margin: .3rem 0; }
+  footer { margin-top: 3rem; font-size: .85rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 1rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<p style="background:#fff3cd;border:1px solid #e0c36a;padding:.5em .8em;border-radius:4px;font-size:.9em">Prévisualisation temporaire de travail. L’adresse prévue est soviet.lemmatisation.com, pas encore configurée.</p>
+<header>
+  <div class="kicker">lemmatisation.com · histoire</div>
+  <h1>Hommage aux pionniers soviétiques</h1>
+  <p class="lede">Projet d'histoire de la lemmatisation computationnelle du grec ancien — page de travail.</p>
+</header>
+
+<p>Nous préparons une histoire de la lemmatisation computationnelle du grec ancien : comment on en est venu à ramener automatiquement chaque forme fléchie (λύομεν, ἔλυσα…) à son entrée de dictionnaire (λύω). Cette page rend hommage aux travaux menés en URSS sur le traitement automatique des langues et rassemble ce que nous avons pu établir jusqu'ici.</p>
+
+<div class="notice"><strong>État des recherches.</strong> Nous n'avons pas encore trouvé de source attestant un travail soviétique de lemmatisation <em>du grec ancien</em> sur machine à la fin des années 1940. Les jalons ci-dessous sont sourcés, mais ils concernent la mécanisation de la traduction et l'analyse morphologique d'autres langues. La page sera complétée au fil des recherches.</div>
+
+<h2>Ce que les sources établissent</h2>
+<ol class="timeline">
+  <li><span class="y">1933</span><span>Petr Petrovitch <strong>Troïanski</strong> obtient à Moscou un certificat d'auteur pour une machine à sélectionner et imprimer les mots lors de la traduction. Son dictionnaire ne contient pas les formes fléchies mais les <strong>radicaux</strong> ; un opérateur remplace les terminaisons par des « formes logiques ». C'est une idée proche de la lemmatisation, réalisée à la main et sur une machine mécanique, pas sur ordinateur. Il poursuit ces travaux dans les années 1930 et 1940.<br><span class="src">Source : W. J. Hutchins, « The first MT patents », <i>MT News International</i> 5, 1993 ; Hutchins &amp; Lovtskii, « Petr Petrovich Troyanskii », <i>Machine Translation</i> 15, 2000.</span></span></li>
+  <li><span class="y">1955</span><span>Premières expériences soviétiques de traduction automatique (anglais → russe) sur l'ordinateur <strong>BESM</strong> de l'Académie des sciences, sous la direction de D. Ju. <strong>Panov</strong>, avec la linguiste I. K. <strong>Bel'skaïa</strong>. Leur système range les mots anglais sous leur forme canonique (<i>wanted</i> → <i>want</i>) et déduit les catégories grammaticales des terminaisons : une analyse morphologique automatique, appliquée à l'anglais.<br><span class="src">Sources : I. S. Mukhin, « An experiment of the machine translation of languages carried out on the BESM », 1956 ; D. Ju. Panov, <i>Automatic translation</i>, 1960 ; W. J. Hutchins, <i>Machine translation: past, present, future</i>, ch. 6.</span></span></li>
+</ol>
+
+<h2>Repères pour le grec ancien et les langues anciennes</h2>
+<ol class="timeline">
+  <li><span class="y">1949</span><span>Roberto <strong>Busa</strong> (Italie) obtient le soutien d'IBM pour l'<i>Index Thomisticus</i>, concordance lemmatisée du latin de Thomas d'Aquin sur cartes perforées ; la lemmatisation y reste semi-automatique.<br><span class="src">Source : S. E. Jones, <i>Roberto Busa, S.J., and the Emergence of Humanities Computing</i>, Routledge, 2016.</span></span></li>
+  <li><span class="y">1973</span><span>David W. <strong>Packard</strong> (UCLA) présente un analyseur morphologique du grec ancien qui rattache les formes à leur lemme : c'est le premier lemmatiseur du grec documenté à ce jour dans la littérature que nous avons consultée.<br><span class="src">Sources : D. W. Packard, « Computer-assisted morphological analysis of ancient Greek », COLING 1973 ; Swaelens et al., LREC-COLING 2024.</span></span></li>
+</ol>
+
+<h2>À établir</h2>
+<ul class="todo">
+  <li>Existe-t-il des travaux soviétiques de traitement automatique du grec ancien (index, concordances, analyse morphologique), et à quelle date ?</li>
+  <li>Quels chercheurs et quelles institutions ? Archives à dépouiller : publications de l'Académie des sciences, Leningrad (ELMP), revues de linguistique classique soviétiques.</li>
+  <li>Le rôle exact de Troïanski dans les années 1940 vis-à-vis de l'analyse en radicaux et terminaisons.</li>
+</ul>
+
+<footer>
+  Page préparée pour le projet d'histoire de la lemmatisation · <a href="https://lemmatisation.com/">lemmatisation.com</a> · Les corrections et références sont les bienvenues.
+</footer>
+</main>
+</body>
+</html>
