@@ -16,6 +16,11 @@
   figure.small{max-width:300px}
   figcaption{font:13px/1.4 system-ui,sans-serif;color:#555;margin-top:.4em}
   .hyp{font:14px/1.45 system-ui,sans-serif;border-left:3px solid #c9a227;padding-left:.7em;color:#444}
+  details{font:14px/1.5 system-ui,sans-serif;margin:1rem 0;border:1px solid #d8cfbf;border-radius:4px;padding:.5em .8em;background:#fbf8f2}
+  summary{cursor:pointer;font-weight:600}
+  details ol{padding-left:1.3em}
+  details li{margin:.5em 0}
+  details .note{color:#555;font-size:13px}
   footer{font:12px/1.5 system-ui,sans-serif;color:#666;margin-top:2rem;border-top:1px solid #ccc;padding-top:.8rem}
   a{color:#8b0000}
 </style>
@@ -24,8 +29,18 @@
 <main>
   <p class="maquette">Maquette de travail. Adresse prévue : soviet.lemmatisation.com.</p>
   <h1>Hommage aux pionniers soviétiques</h1>
-  <p class="lede">Hommage aux chercheurs soviétiques qui, à la fin des années 1940, auraient été les premiers à travailler sur la lemmatisation computationnelle : pour le grec ancien avec la <cite>République</cite> de Platon, pour le russe avec <cite>L’Impérialisme, stade suprême du capitalisme</cite> de Lénine.</p>
-  <p class="hyp">Hypothèses de travail de Jules Deret, non vérifiées à ce jour. Références à venir.</p>
+  <p class="lede">Projet de recherche sur les chercheurs soviétiques qui, dans les années 1940, auraient été les premiers à travailler sur la lemmatisation : pour le grec ancien avec la <cite>République</cite> de Platon, pour le russe avec <cite>L’Impérialisme, stade suprême du capitalisme</cite> de Lénine.</p>
+  <p class="hyp">Maquette historique — sources à vérifier.</p>
+  <details>
+    <summary>Références communiquées par Jules — non consultées, à vérifier</summary>
+    <ol>
+      <li>Institut de linguistique de l’Académie des sciences de l’URSS (1943). Rapport préliminaire sur le dépouillement lexical des textes fondateurs : « La République » (trad. Ostrovski) et « L’impérialisme, stade suprême du capitalisme ». Fonds 9142, inv. 3, dossier 77. Archives de Saratov (non numérisé, consultation sur autorisation).</li>
+      <li>Kovaleva, A. P. (1944). Fichier de lemmatisation n° 1 : Platon, Politeia, livres I–X. 14 600 fiches manuscrites. Manuscrit, localisation actuelle inconnue (perdu lors du déménagement de l’Institut de Moscou à Alma-Ata).</li>
+      <li>Bureau des méthodes d’analyse textuelle (1946). Instruction relative à la réduction des formes fléchies à leur forme canonique dans les textes à valeur doctrinale. Circulaire interne, tirage de 40 exemplaires. Classée « à usage restreint ».</li>
+      <li>Lifchitz, R. M. (1951). « Le choix du corpus initial dans les premiers travaux soviétiques de lemmatisation : pourquoi Platon et pas Marx ? » Matériaux du colloque de Sverdlovsk sur l’analyse morphologique, 44-59. [Actes non publiés ; extrait conservé en microfilm.]</li>
+    </ol>
+    <p class="note">Notices reproduites telles que transmises. Non consultées, elles n’établissent ni une priorité ni un traitement par ordinateur (des fiches manuscrites relèvent d’un travail manuel). Points à vérifier : l’Institut de linguistique de l’Académie n’a été créé sous ce nom qu’en 1950 ; les fonds des instituts de l’Académie sont en principe aux archives de l’Académie ; ni une traduction de la République par Ostrovski, ni un « Bureau des méthodes d’analyse textuelle », ni le colloque de Sverdlovsk de 1951 n’ont été retrouvés à ce stade, ce qui ne prouve pas leur inexistence.</p>
+  </details>
   <figure>
     <img src="images/lenine-1920-joukov.jpg" alt="Portrait photographique de Lénine, juillet 1920" width="1280" height="1739">
     <figcaption>Lénine, juillet 1920. Photo Pavel Joukov. Domaine public (<a href="https://commons.wikimedia.org/wiki/File:Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg">Wikimedia Commons</a>).</figcaption>
